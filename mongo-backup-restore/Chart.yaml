@@ -1,0 +1,4 @@
+apiVersion: v2
+name: mongo-backup-restore
+description: A Helm chart to backup and restore MongoDB
+version: 0.1.0

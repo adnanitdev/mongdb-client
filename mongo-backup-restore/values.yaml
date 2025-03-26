@@ -1,0 +1,6 @@
+source:
+  uri: "mongodb://<user>:<password>@<source-host>:27017/"
+
+restore:
+  namespace: "ferretdb"
+  uri: "mongodb://<user>:<password>@<target-host>:27017/?socketTimeoutMS=300000&connectTimeoutMS=300000"
