@@ -6,7 +6,7 @@ spec:
   restartPolicy: Never
   containers:
     - name: mongo-dump
-      image: mongo:5
+      image: mongo:6.0
       command: ["/bin/sh", "-c"]
       args:
         - |
